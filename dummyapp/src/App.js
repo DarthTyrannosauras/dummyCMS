@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -26,6 +27,21 @@ export default function App() {
             </div>
         </Router>
     )
+=======
+//import logo from './logo.svg';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import Navbar from './components/Navbar';
+
+function App() {
+  return (
+    <div className="App">
+      Hello World
+      <Navbar></Navbar>
+      HELLO WORLD
+    </div>
+  );
+>>>>>>> a7669af71598b3ce0e54d284a65127bdcbc4ba1c
 }
 
 const Footer = () => {
